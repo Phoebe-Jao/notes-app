@@ -4,7 +4,7 @@
   "description": "A notes / to-do list web app built with **React JS** and **Tailwind CSS**.",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
   "repository": {
