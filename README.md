@@ -6,7 +6,7 @@ A notes / to-do list web app built with **React JS** and **Tailwind CSS**.
 
 ## 📸 Screenshot
 
-![Screenshot](https://i.imgur.com/6BkW239.png)
+![Screenshot](https://i.imgur.com/QvmJh1E.png)
 
 [Preview]()
 

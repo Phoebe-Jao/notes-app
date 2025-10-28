@@ -21,6 +21,15 @@
   box-shadow: 0 9px 0 0 rgba(0, 0, 0, 1);
 }
 
+@utility form-input {
+  padding: 0.5rem 0.8rem;
+  background-color: #fff;
+  outline: none;
+  border: 1.8px solid #000;
+  border-radius: 0.7rem;
+  resize: none;
+}
+
 @utility trs-300 {
   transition: all 0.3s ease-in-out;
 }
