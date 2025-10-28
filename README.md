@@ -1,6 +1,6 @@
-# 📝 Portfolio Project – React JS + Tailwind CSS
+# 📝 To-do List Web App – React JS + Tailwind CSS
 
-A portfolio website built with **React JS** and **Tailwind CSS**.
+A notes / to-do list web app built with **React JS** and **Tailwind CSS**.
 
 ---
 
