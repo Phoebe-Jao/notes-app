@@ -3,6 +3,7 @@ import api from "../lib/axios";
 import toast from "react-hot-toast";
 import Note from "./Note";
 import RateLimitedUI from "./RateLimitedUI";
+import NotesNotFound from "./NotesNotFound";
 
 const Grid = () => {
   const [isRateLimited, setIsRateLimited] = useState(false);
@@ -42,9 +43,11 @@ const Grid = () => {
             <Note
               key={note._id}
               note={note}
+              setNotes={setNotes}
             />
         ))}
       </div>
+      { notes.length === 0 && !isRateLimited && <NotesNotFound /> }
       { isRateLimited && <RateLimitedUI /> }
     </section>
   )

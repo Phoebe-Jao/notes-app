@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const RateLimitedUI = () => {
   return (
-    <div className="w-full max-full-[80%] max-sm:max-w-full ui-bg border-shadow-thick px-5 pt-5 pb-10 max-sm:pt-3 max-sm:pb-7 flex gap-10 items-center">
-      <div className="max-sm:hidden bg-secondary/45 rounded-full h-18 w-18 flex justify-center items-center">
+    <div className="w-full max-full-[80%] max-sm:max-w-full ui-bg border-shadow-thick px-5 pt-5 pb-10 max-sm:pt-3 max-sm:pb-7 flex gap-6 max-sm:gap-3 items-center">
+      <div className="bg-secondary/45 rounded-full h-18 w-18 flex justify-center items-center">
         <FontAwesomeIcon icon={faBolt} className="text-primary text-3xl" />
       </div>
       <div>
