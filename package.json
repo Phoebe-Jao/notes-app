@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/Phoebe-Jao/notes-app/issues"
   },
-  "engines": {
-    "node": "20.19.x"
-  },
   "homepage": "https://github.com/Phoebe-Jao/notes-app#readme"
 }
